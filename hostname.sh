@@ -10,4 +10,5 @@ sed -i "s/$currenthostname/$newhostname/g" /etc/hosts
 sed -i "s/$currenthostname/$newhostname/g" /etc/hostname
 echo going to reboot ...
 sleep 5
+reboot
 exit 0
